@@ -102,7 +102,11 @@ hr.star-tertiary:after{
 
 .navbar-custom, header .intro-text .name {
     font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase
+    text-transform: uppercase;
+    background-image: url('../img/header.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 130px
 }
 
 .navbar-custom .navbar-custom .navbar-brand.active, .navbar-custom .navbar-brand:active, .navbar-custom .navbar-brand:focus, .navbar-custom .navbar-brand:hover, .navbar-custom .navbar-nav li a{
@@ -111,6 +115,7 @@ hr.star-tertiary:after{
 
 .navbar-default .navbar-brand{
     color: #000;
+    
 }
 
 .navbar-custom {
@@ -129,16 +134,16 @@ hr.star-tertiary:after{
 }
 
 .navbar-custom .navbar-nav li a:hover {
-    color: #160843;
+    color: #ffd4ea;
     outline: 0
 }
 
 .navbar-custom .navbar-nav li a:active, .navbar-custom .navbar-nav li a:focus {
-    color: #160843
+    color: #ffd4ea;
 }
 
 .navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li.active a:active, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:hover {
-    color: #160843;
+    color: #ffd4ea;
     background: transparent;
 }
 
@@ -198,49 +203,6 @@ header .name{
 
 .img-centered {
     margin: 0 auto
-}
-
-header .container {
-    background-image: url('../img/banner.png');
-    background-size: 100%  100%;
-    background-repeat:no-repeat;
-    background-position: center;
-}
-header .container .row{
-    padding: 1%;
-    /*background-color: rgba(255,255,255,0.5);*/
-}
-
-
-header img {
-    display: block;
-    margin: 0 auto 20px
-}
-
-header .intro-text .name {
-    display: block;
-    font-weight: 700;
-    font-size: 2em
-}
-
-header .intro-text .skills {
-    font-size: 1.25em;
-    font-weight: 300
-}
-
-@media (min-width: 768px) {
-    header .container {
-        padding-top: 200px;
-        padding-bottom: 100px
-    }
-
-    header .intro-text .name {
-        font-size: 4.75em
-    }
-
-    header .intro-text .skills {
-        font-size: 1.75em
-    }
 }
 
 section h2{
